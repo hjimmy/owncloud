@@ -71,14 +71,14 @@ class Hooks {
 			$params['path'] = self::$createhookfile;
 
 			$link = \OCP\Util::linkToAbsolute('files', 'index.php', array('dir' => dirname($params['path'])));
-			$subject = '%s created';
+			$subject = '%s 被创建';
 			Data::send('files', $subject, substr($params['path'], 1), '', array(), $params['path'], $link, \OCP\User::getUser(), 3);
 		
 			if(substr($params['path'],0,8)=='/Shared/') {
 				$uidOwner = \OC\Files\Filesystem::getOwner($params['path']);
 				$realfile=substr($params['path'],7);
 				$link = \OCP\Util::linkToAbsolute('files', 'index.php', array('dir' => dirname($realfile)));
-				$subject = '%s created by %s';
+				$subject = '%s 被用户 %s 创建';
 				Data::send('files', $subject, array($realfile,\OCP\User::getUser()), '', array(), $realfile, $link, $uidOwner, 8, Data::PRIORITY_HIGH);
 			}
 			self::$createhookfired = false;
@@ -87,14 +87,14 @@ class Hooks {
 		} else {
 
 			$link = \OCP\Util::linkToAbsolute('files', 'index.php', array('dir' => dirname($params['path'])));
-			$subject = '%s changed';
+			$subject = '%s 被修改';
 			Data::send('files', $subject, substr($params['path'], 1), '', array(), $params['path'], $link, \OCP\User::getUser(), 1);
 		
 			if(substr($params['path'],0,8)=='/Shared/') {
 				$uidOwner = \OC\Files\Filesystem::getOwner($params['path']);
 				$realfile=substr($params['path'],7);
 				$link = \OCP\Util::linkToAbsolute('files', 'index.php', array('dir' => dirname($realfile)));
-				$subject = '%s changed by %s';
+				$subject = '%s 被用户 %s 修改';
 				Data::send('files', $subject, array($realfile,\OCP\User::getUser()), '', array(), $realfile, $link, $uidOwner, 6, Data::PRIORITY_HIGH);
 			}
 		}
@@ -108,14 +108,14 @@ class Hooks {
 	public static function file_delete($params) {
 
 		$link = \OCP\Util::linkToAbsolute('files', 'index.php', array('dir' => dirname($params['path'])));
-		$subject = '%s deleted';
+		$subject = '%s 被删除';
 		Data::send('files', $subject, substr($params['path'], 1), '', array(), $params['path'], $link, \OCP\User::getUser(), 2);
 
 		if(substr($params['path'],0,8)=='/Shared/') {
 			$uidOwner = \OC\Files\Filesystem::getOwner($params['path']);
 			$realfile=substr($params['path'],7);
 			$link = \OCP\Util::linkToAbsolute('files', 'index.php', array('dir' => dirname($realfile)));
-			$subject = '%s deleted by %s';
+			$subject = '%s 被用户 %s 删除';
 			Data::send('files', $subject, array($realfile,\OCP\User::getUser()), '', array(), $realfile, $link, $uidOwner, 7, Data::PRIORITY_HIGH);
 		}
 
@@ -148,13 +148,13 @@ class Hooks {
 			$shareWith = $params['shareWith'];
 
 			if($params['shareType'] !== \OCP\Share::SHARE_TYPE_LINK) {
-				$subject = 'You shared %s with %s';
+				$subject = '您将 %s 分享给 %s';
 				Data::send('files', $subject, array(substr($params['fileTarget'], 1), $shareWith), '', array(), $params['fileTarget'], $link, \OCP\User::getUser(), 4, Data::PRIORITY_MEDIUM );
 			
-				$subject = '%s shared %s with you';
+				$subject = '%s 与你分享了 %s';
 				Data::send('files', $subject, array($sharedFrom, substr('/Shared'.$params['fileTarget'], 1)), '', array(), '/Shared/'.$params['fileTarget'], $link2, $shareWith, 5, Data::PRIORITY_MEDIUM);
 			} else {
-				$subject = 'You shared %s';
+				$subject = '您共享了 %s';
 				Data::send('files', $subject, array(substr($params['fileTarget'], 1)), '', array(), $params['fileTarget'], $link, \OCP\User::getUser(), 4, Data::PRIORITY_MEDIUM );
 			}
 			

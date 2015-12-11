@@ -12,6 +12,7 @@ return array(
 'de'=>'Deutsch (Persönlich)',
 'de_DE'=>'Deutsch (Förmlich)',
 'el'=>'Ελληνικά',
+
 'en'=>'English',
 'es'=>'Español',
 'et_EE'=>'Eesti',
@@ -67,3 +68,4 @@ return array(
 'my_MM'=>'Burmese - MYANMAR ',
 'ur_PK'	=>'Urdu (Pakistan)'
 );
+//added by jian.hou Remove language

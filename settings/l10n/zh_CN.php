@@ -95,6 +95,14 @@ $TRANSLATIONS = array(
 "Your email address" => "您的电子邮件",
 "Fill in an email address to enable password recovery" => "填写电子邮件地址以启用密码恢复功能",
 "Profile picture" => "联系人图片",
+"Upload new" => "上传新图片",
+"Select new from Files" => "从上传到文件中选择一个",
+"Remove image" => "移除图片",
+"Either png or jpg. Ideally square but you will be able to crop it." => "可以使用 png 或 jpg 格式，最好是方形的，但是您之后也可以裁剪它",
+"Abort" => "终端",
+"Choose as profile image" => "设置为大头贴",
+"Select a profile picture" => "选择大头贴",
+"Use this address to <a href=\"%s\" target=\"_blank\">access your Files via WebDAV</a>" => "上述地址通过WebDAV 访问文件",
 "Language" => "语言",
 "Help translate" => "帮助翻译",
 "WebDAV" => "WebDAV",
@@ -111,6 +119,7 @@ $TRANSLATIONS = array(
 "Username" => "用户名",
 "Storage" => "存储",
 "set new password" => "设置新密码",
+"Full Name" => "全名",
 "Default" => "默认"
 );
 $PLURAL_FORMS = "nplurals=1; plural=0;";

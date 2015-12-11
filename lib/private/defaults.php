@@ -21,14 +21,15 @@ class OC_Defaults {
 
 	function __construct() {
 		$this->l = OC_L10N::get('core');
-
-		$this->defaultEntity = "ownCloud"; /* e.g. company name, used for footers and copyright notices */
-		$this->defaultName = "ownCloud"; /* short name, used when referring to the software */
-		$this->defaultTitle = "ownCloud"; /* can be a longer name, for titles */
+                 //added by jian.hou
+		//$this->defaultEntity = "ownCloud"; /* e.g. company name, used for footers and copyright notices */
+		//$this->defaultName = "ownCloud"; /* short name, used when referring to the software */
+		//$this->defaultTitle = "ownCloud"; /* can be a longer name, for titles */
 		$this->defaultBaseUrl = "http://owncloud.org";
 		$this->defaultSyncClientUrl = " http://owncloud.org/sync-clients/";
 		$this->defaultDocBaseUrl = "http://doc.owncloud.org";
-		$this->defaultSlogan = $this->l->t("web services under your control");
+                //added by jian.hou
+		//$this->defaultSlogan = $this->l->t("web services under your control");
 		$this->defaultLogoClaim = "";
 		$this->defaultMailHeaderColor = "#1d2d44"; /* header color of mail notifications */
 

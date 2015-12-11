@@ -82,6 +82,8 @@ $TRANSLATIONS = array(
 "The object type is not specified." => "未指定对象类型。",
 "Delete" => "删除",
 "Add" => "增加",
+"Share with user or group …" => "与用户或者群组共享",
+"Share link" => "分享链接",
 "The update was unsuccessful. Please report this issue to the <a href=\"https://github.com/owncloud/core/issues\" target=\"_blank\">ownCloud community</a>." => "更新不成功。请汇报将此问题汇报给  <a href=\"https://github.com/owncloud/core/issues\" target=\"_blank\">ownCloud 社区</a>。",
 "The update was successful. Redirecting you to ownCloud now." => "更新成功。正在重定向至 ownCloud。",
 "%s password reset" => "重置 %s 的密码",
@@ -131,6 +133,12 @@ $TRANSLATIONS = array(
 "remember" => "记住",
 "Log in" => "登录",
 "Alternative Logins" => "其他登录方式",
+"_{count} file conflict_::_{count} file conflicts_" => array("{count} 个文件冲突"),
+"One file conflict" => "一个文件冲突",
+"Which files do you want to keep?" => "你要保留哪一个文件？",
+"If you select both versions, the copied file will have a number added to its name." => "如果你同时选择两个版本，被复制的那个文件名称后面会加上编号",
+"Cancel" => "取消",
+"Continue" => "继续",
 "Updating ownCloud to version %s, this may take a while." => "更新 ownCloud 到版本 %s，这可能需要一些时间。"
 );
 $PLURAL_FORMS = "nplurals=1; plural=0;";

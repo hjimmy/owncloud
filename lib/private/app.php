@@ -350,7 +350,7 @@ class OC_App{
 
 		$settings = array();
 		// by default, settings only contain the help menu
-		if(OC_Util::getEditionString() === '' &&
+/*		if(OC_Util::getEditionString() === '' &&
 			OC_Config::getValue('knowledgebaseenabled', true)==true) {
 			$settings = array(
 				array(
@@ -362,7 +362,8 @@ class OC_App{
 				)
 			);
 		}
-
+*/  
+//Added by jian.hou drop Help in value
 		// if the user is logged-in
 		if (OC_User::isLoggedIn()) {
 			// personal menu

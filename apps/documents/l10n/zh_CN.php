@@ -1,4 +1,5 @@
 <?php $TRANSLATIONS = array(
+"New document" => "新建",
 "Close" => "关闭",
 "Share" => "共享",
 "Failed to load documents." => "载入文档失败",
@@ -15,5 +16,8 @@
 "Text" => "文本",
 "Sent" => "发送",
 "Upload" => "上传",
-"Password" => "密码"
+"Password" => "密码",
+"Documents"=>"文档",
+"Save new documents to" => "新建或上传文档保存到：",
+
 );

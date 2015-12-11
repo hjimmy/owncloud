@@ -4,7 +4,7 @@
  * See the COPYING-README file.
  */?>
 
-<div class="clientsbox center">
+<?/**div class="clientsbox center">
 	<h2><?php p($l->t('Get the apps to sync your files'));?></h2>
 	<a href="<?php p($_['clients']['desktop']); ?>" target="_blank">
 		<img src="<?php print_unescaped(OCP\Util::imagePath('core', 'desktopapp.png')); ?>" />
@@ -18,8 +18,9 @@
 	<?php if(OC_APP::isEnabled('firstrunwizard')) {?>
 	<p class="center"><a class="button" href="#" id="showWizard"><?php p($l->t('Show First Run Wizard again'));?></a></p>
 	<?php }?>
-</div>
-
+</div-->
+*/?>
+<!-- Added by jian.hou -->
 
 <div id="quota" class="personalblock">
 	<div style="width:<?php p($_['usage_relative']);?>%;">
@@ -107,7 +108,7 @@ if($_['passwordChangeSupported']) {
 </form>
 <?php endif; ?>
 
-<form>
+<!--form>
 	<fieldset class="personalblock">
 		<h2><?php p($l->t('Language'));?></h2>
 		<select id="languageinput" name="lang" data-placeholder="<?php p($l->t('Language'));?>">
@@ -133,7 +134,8 @@ if($_['passwordChangeSupported']) {
 		</a>
 		<?php endif; ?>
 	</fieldset>
-</form>
+</form-->
+<!-- Added by jian.hou -->
 
 <fieldset class="personalblock">
 	<h2><?php p($l->t('WebDAV'));?></h2>
@@ -169,13 +171,13 @@ if($_['passwordChangeSupported']) {
 </fieldset>
 <?php endif; ?>
 
-<fieldset class="personalblock">
+<!--fieldset class="personalblock">
 	<h2><?php p($l->t('Version'));?></h2>
 	<strong><?php p($theme->getName()); ?></strong> <?php p(OC_Util::getHumanVersion()) ?><br />
 <?php if (OC_Util::getEditionString() === ''): ?>
 	<?php print_unescaped($l->t('Developed by the <a href="http://ownCloud.org/contact" target="_blank">ownCloud community</a>, the <a href="https://github.com/owncloud" target="_blank">source code</a> is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank"><abbr title="Affero General Public License">AGPL</abbr></a>.')); ?>
 <?php endif; ?>
-</fieldset>
+</fieldset-->
 <fieldset class="personalblock credits-footer">
 <p>
 	<?php print_unescaped($theme->getShortFooter()); ?>

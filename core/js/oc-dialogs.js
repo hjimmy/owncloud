@@ -363,9 +363,9 @@ var OCdialogs = {
 						dialog_name: dialog_name,
 						title: title,
 						type: 'fileexists',
-
-						allnewfiles: t('core','New Files'),
-						allexistingfiles: t('core','Already existing files'),
+                                                //added by jian.hou
+						allnewfiles: t('core','新文件'),
+						allexistingfiles: t('core','已经存在的文件'),
 
 						why: t('core','Which files do you want to keep?'),
 						what: t('core','If you select both versions, the copied file will have a number added to its name.')

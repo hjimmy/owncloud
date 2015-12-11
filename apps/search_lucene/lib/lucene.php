@@ -265,19 +265,19 @@ class Lucene extends \OC_Search_Provider {
 
 		switch($mimeBase){
 			case 'audio':
-				$type='Music';
+				 $type='音乐';//$type='Music'; //added by jian.hou
 				break;
 			case 'text':
-				$type='Text';
+				 $type='文本';//$type='Text'; // added by jian.hou
 				break;
 			case 'image':
-				$type='Images';
+				 $type='图片';//$type='Images'; //added by jian.hou 
 				break;
 			default:
 				if ($hit->mimetype=='application/xml') {
-					$type='Text';
+					$type='文本';//$type='Text'; //added by jian.hou
 				} else {
-					$type='Files';
+					$type='文件';//$type='Files'; //added by jian.hou
 				}
 		}
 
@@ -289,14 +289,24 @@ class Lucene extends \OC_Search_Provider {
 				$url = \OC::getRouter()->generate('download', array('file'=>$hit->path));
 		}
 		
-		return new \OC_Search_Result(
+	/*	return new \OC_Search_Result(
 			basename($hit->path),
 			dirname($hit->path)
 				. ', ' . \OC_Helper::humanFileSize($hit->size)
 				. ', Score: ' . number_format($hit->score, 2),
+
 			$url,
 			$type
-		);
+		);*/
+                return new \OC_Search_Result(
+                        basename($hit->path),
+                        dirname($hit->path)
+                                . ', ' . \OC_Helper::humanFileSize($hit->size)
+                               ,
+
+                        $url,
+                        $type
+                );
 	}
 
 	/**

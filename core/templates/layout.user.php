@@ -38,15 +38,16 @@
 
 	<body id="<?php p($_['bodyid']);?>">
 	<noscript><div id="nojavascript"><div><?php print_unescaped($l->t('This application requires JavaScript for correct operation. Please <a href="http://enable-javascript.com/" target="_blank">enable JavaScript</a> and reload the page.')); ?></div></div></noscript>
-	<div id="notification-container">
+	<!--div id="notification-container">
 		<div id="notification"></div>
 		<?php if ($_['updateAvailable']): ?>
 			<div id="update-notification" style="display: inline;"><a href="<?php print_unescaped($_['updateLink']); ?>"><?php p($l->t('%s is available. Get more information on how to update.', array($_['updateVersion']))); ?></a></div>
 		<?php endif; ?>
-	</div>
+	</div-->
+        <!-- Added by jian .hou-->
 	<header><div id="header">
 			<a href="<?php print_unescaped(link_to('', 'index.php')); ?>" title="" id="owncloud"><img class="svg"
-				src="<?php print_unescaped(image_path('', 'logo-wide.svg')); ?>" alt="<?php p($theme->getName()); ?>" /></a>
+				src="<?php print_unescaped(image_path('', 'logo-wide.png')); ?>" alt="<?php p($theme->getName()); ?>" /></a> <!-- Added by jian.hou<-->
 			<div id="logo-claim" style="display:none;"><?php p($theme->getLogoClaim()); ?></div>
 			<ul id="settings" class="svg">
 				<span id="expand" tabindex="0" role="link">
@@ -103,7 +104,7 @@
 
 				<!-- show "More apps" link to app administration directly in app navigation, as sticky footer -->
 				<?php if(OC_User::isAdminUser(OC_User::getUser())): ?>
-					<li id="apps-management">
+					<!--li id="apps-management">
 						<a href="<?php print_unescaped(OC_Helper::linkToRoute('settings_apps').'?installed'); ?>" title=""
 							<?php if( $entry['active'] ): ?> class="active"<?php endif; ?>>
 							<img class="icon svg" src="<?php print_unescaped(OC_Helper::imagePath('settings', 'apps.svg')); ?>"/>
@@ -111,8 +112,9 @@
 								<?php p($l->t('Apps')); ?>
 							</span>
 						</a>
-					</li>
+					</li-->
 				<?php endif; ?>
+                                <!-- Added by jian.hou apps management -->
 			</ul>
 		</div></nav>
 

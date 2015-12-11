@@ -18,14 +18,14 @@ $levelLabels = array(
 // is ssl working ?
 if (!$_['isConnectedViaHTTPS']) {
 	?>
-<fieldset class="personalblock">
+<!--fieldset class="personalblock">
 	<h2><?php p($l->t('Security Warning'));?></h2>
 
 	<span class="securitywarning">
 		<?php p($l->t('You are accessing %s via HTTP. We strongly suggest you configure your server to require using HTTPS instead.', $theme->getTitle())); ?>
 	</span>
 
-</fieldset>
+</fieldset-->
 <?php
 }
 
@@ -44,6 +44,7 @@ if (!$_['htaccessworking']) {
 }
 
 // is WebDAV working ?
+
 if (!$_['isWebDavWorking']) {
 	?>
 <fieldset class="personalblock">
@@ -55,6 +56,7 @@ if (!$_['isWebDavWorking']) {
 	</span>
 
 </fieldset>
+
 <?php
 }
 
@@ -72,17 +74,17 @@ if (!$_['has_fileinfo']) {
 <?php
 }
 
-// is PHP at least at 5.3.8?
+// is PHP at least at 5.3.8?added by jian.hou remove waring
 if ($_['old_php']) {
 	?>
-<fieldset class="personalblock">
+<!--fieldset class="personalblock">
 	<h2><?php p($l->t('Your PHP version is outdated'));?></h2>
 
 		<span class="connectionwarning">
 		<?php p($l->t('Your PHP version is outdated. We strongly recommend to update to 5.3.8 or newer because older versions are known to be broken. It is possible that this installation is not working correctly.')); ?>
 	</span>
 
-</fieldset>
+</fieldset-->
 <?php
 }
 
@@ -131,7 +133,7 @@ if (!$_['internetconnectionworking']) {
 }
 ;?>
 
-<fieldset class="personalblock" id="backgroundjobs">
+<!--fieldset class="personalblock" id="backgroundjobs">
 	<h2><?php p($l->t('Cron'));?></h2>
 	<p>
 				<input type="radio" name="mode" value="ajax"
@@ -157,7 +159,8 @@ if (!$_['internetconnectionworking']) {
 				<label for="backgroundjobs_cron">Cron</label><br/>
 				<em><?php p($l->t("Use systems cron service to call the cron.php file every 15 minutes.")); ?></em>
 	</p>
-</fieldset>
+</fieldseti-->
+<!--Added by jian.hou-->
 
 <fieldset class="personalblock" id="shareAPI">
 	<h2><?php p($l->t('Sharing'));?></h2>
@@ -204,14 +207,14 @@ if (!$_['internetconnectionworking']) {
 				<label for="sharePolicyGroupsOnly"><?php p($l->t('Allow users to only share with users in their groups'));?></label><br/>
 			</td>
 		</tr>
-		<tr>
+		<!--tr>
 			<td <?php if ($_['shareAPIEnabled'] === 'no') print_unescaped('class="hidden"');?>>
 				<input type="checkbox" name="shareapi_allow_mail_notification" id="allowMailNotification"
 					   value="1" <?php if ($_['allowMailNotification'] === 'yes') print_unescaped('checked="checked"'); ?> />
 				<label for="allowMailNotification"><?php p($l->t('Allow mail notification'));?></label><br/>
 				<em><?php p($l->t('Allow user to send mail notification for shared files')); ?></em>
 			</td>
-		</tr>
+		</tr-->
 	</table>
 </fieldset>
 
@@ -248,7 +251,7 @@ if (!$_['internetconnectionworking']) {
 	</table>
 </fieldset>
 
-<fieldset class="personalblock">
+<!--fieldset class="personalblock">
 	<h2><?php p($l->t('Log'));?></h2>
 	<?php p($l->t('Log level'));?> <select name='loglevel' id='loglevel'>
 <?php for ($i = 0; $i < 5; $i++):
@@ -286,9 +289,8 @@ if (!$_['internetconnectionworking']) {
 	<input id="lessLog" type="button" value="<?php p($l->t('Less'));?>...">
 	<?php endif; ?>
 
-</fieldset>
-
-<fieldset class="personalblock">
+</fieldset-->
+<!--fieldset class="personalblock">
 	<h2><?php p($l->t('Version'));?></h2>
 	<strong><?php p($theme->getTitle()); ?></strong> <?php p(OC_Util::getHumanVersion()) ?>
 <?php if (OC_Util::getEditionString() === ''): ?>
@@ -296,7 +298,8 @@ if (!$_['internetconnectionworking']) {
 		<?php print_unescaped($l->t('Developed by the <a href="http://ownCloud.org/contact" target="_blank">ownCloud community</a>, the <a href="https://github.com/owncloud" target="_blank">source code</a> is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank"><abbr title="Affero General Public License">AGPL</abbr></a>.')); ?>
 	</p>
 <?php endif; ?>
-</fieldset>
+</fieldset-->
+<!-- Added by jian.hou -->
 <fieldset class="personalblock credits-footer">
 <p>
 	<?php print_unescaped($theme->getShortFooter()); ?>
