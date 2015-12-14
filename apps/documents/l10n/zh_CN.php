@@ -18,6 +18,7 @@
 "Upload" => "上传",
 "Password" => "密码",
 "Documents"=>"文档",
+"No documents are found. Please upload or create a document!" => "未找到任何文档,请上传或者创建文档！",
 "Save new documents to" => "新建或上传文档保存到：",
 
 );
