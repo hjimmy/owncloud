@@ -11,4 +11,7 @@ cp -rvf  *.tar.bz2  ~/rpmbuild/SOURCES/
 #cp -rvf patches/origin/*  ~/rpmbuild/SOURCES/
 #cp -rvf patches/cs2c/*  ~/rpmbuild/SOURCES/
 rpmbuild -bs --nodeps owncloud.spec
+rpmbuild -ba owncloud.spec
+rm -rf $NAME
+rm -rf $NAME-$VERSION.tar.bz2
 
