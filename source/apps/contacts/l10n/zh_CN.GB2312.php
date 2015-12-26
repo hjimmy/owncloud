@@ -1,4 +1,6 @@
 <?php $TRANSLATIONS = array(
+"You have no contacts in your address book or your address book is disabled." => "您的地址薄没有联系人",
+"Add a new contact or import existing contacts from a file a VCF file." => "添加新的联系人或者通过文件VCF导入联系人.",
 "Error getting contact object." => "获取联系人对象出错。",
 "Error reading contact photo." => "读取联系人相片出错。",
 "Error saving temporary file." => "保存临时文件出错。",

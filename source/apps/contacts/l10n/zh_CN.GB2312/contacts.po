@@ -1150,3 +1150,10 @@ msgstr "名称"
 #: templates/settings.php:60
 msgid "Description"
 msgstr "描述"
+
+msgid "You have no contacts in your address book or your address book is disabled."
+msgstr "您的地址薄没有联系人"
+
+msgid "Add a new contact or import existing contacts from a file a VCF file."
+msgstr "添加新的联系人或者通过文件VCF导入联系人."
+
