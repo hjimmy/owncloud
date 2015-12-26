@@ -1,0 +1,148 @@
+# 
+# Translators:
+# Cyryl Sochacki <cyrylsochacki@gmail.com>, 2013-2014
+# bobie <maciej.przybecki@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud\n"
+"PO-Revision-Date: 2014-04-30 05:30+0000\n"
+"Last-Translator: I Robot\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/owncloud/language/pl/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../templates/fake-template.php
+msgid "Albums"
+msgstr "Albumy"
+
+#: ../templates/fake-template.php
+msgid "Artists"
+msgstr "Artyści"
+
+#: ../templates/main.php
+msgid "Delete"
+msgstr "Usuń"
+
+#: ../templates/fake-template.php
+msgid "Description"
+msgstr "Opis"
+
+#: ../templates/fake-template.php
+msgid "Description (e.g. App name)"
+msgstr "Opis (np. Nazwa aplikacji)"
+
+#: ../templates/fake-template.php
+msgid "Generate API password"
+msgstr "Wygeneruj hasło API"
+
+#: ../templates/fake-template.php
+msgid ""
+"Here you can generate passwords to use with the Ampache API, because they "
+"can't be stored in a really secure way due to the design of the Ampache API."
+" You can generate as many passwords as you want and revoke them anytime."
+msgstr "Tutaj możesz wygenerować hasła do używania API Ampache, ponieważ nie mogą one być przechowywane w rzeczywiście bezpieczny sposób z powodu architektury API Ampache. Możesz wygenerować tyle haseł ile chcesz i odwołać je w dowolnym momencie."
+
+#: ../templates/fake-template.php
+msgid "Invalid path"
+msgstr "niewłaściwa ścieżka"
+
+#: ../templates/fake-template.php
+msgid ""
+"Keep in mind, that the Ampache API is just a preview and is unstable. Feel "
+"free to report your experience with this feature in the corresponding <a "
+"href=\"https://github.com/owncloud/music/issues/60\">issue</a>. I would also"
+" like to have a list of clients to test with. Thanks"
+msgstr "Miej na uwadze, że API Ampache jest tylko poglądowe i niestabilne. Możesz swobodnie raportować swoje doświadczenia z tą funkcją w odpowiednim <a href=\"https://github.com/owncloud/music/issues/60\">dokumencie</a>. Chciałbym mieć również listę klientów z którymi będę przeprowadzać testy. Dzięki"
+
+#: ../templates/main.php ../templates/part.main.php
+msgid "Loading ..."
+msgstr "Wczytuję ..."
+
+#: ../templates/fake-template.php
+msgid "Music"
+msgstr "Muzyka"
+
+#: ../templates/main.php
+msgid "Next"
+msgstr "Następny"
+
+#: ../templates/part.main.php
+msgid "Nothing in here. Upload your music!"
+msgstr "Brak zawartości. Proszę wysłać muzykę!"
+
+#: ../templates/fake-template.php
+msgid "Path to your music collection"
+msgstr "Ścieżka do Twojej kolekcji muzyki"
+
+#: ../templates/main.php
+msgid "Pause"
+msgstr "Wstrzymaj"
+
+#: ../templates/main.php ../templates/part.main.php
+msgid "Play"
+msgstr "Odtwarzaj"
+
+#: ../templates/main.php
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: ../templates/main.php
+msgid "Repeat"
+msgstr "Powtarzanie"
+
+#: ../templates/fake-template.php
+msgid "Revoke API password"
+msgstr "Odwołaj hasło API"
+
+#: ../templates/part.main.php
+msgid "Scanning ..."
+msgstr "Skanowanie..."
+
+#: ../templates/part.main.php
+msgid "Show all {{ trackcount }} songs ..."
+msgid_plural "Show all {{ trackcount }} songs ..."
+msgstr[0] "Pokaż wszystkie {{ trackcount }} piosenek ..."
+msgstr[1] "Pokaż wszystkie {{ trackcount }} piosenek ..."
+msgstr[2] "Pokaż wszystkie {{ trackcount }} piosenek ..."
+
+#: ../templates/part.main.php
+msgid "Show less ..."
+msgstr "Pokaz mniej ..."
+
+#: ../templates/main.php
+msgid "Shuffle"
+msgstr "Losowo"
+
+#: ../js/public/app.js
+msgid "Some not playable tracks were skipped."
+msgstr "Niektóre nieodtwarzalne ścieżki zostały pominięte."
+
+#: ../templates/fake-template.php
+msgid "This setting specifies the folder which will be scanned for music."
+msgstr ""
+
+#: ../templates/fake-template.php
+msgid "Tracks"
+msgstr "Utwory"
+
+#: ../templates/fake-template.php
+msgid "Unknown album"
+msgstr "Nieznany album"
+
+#: ../templates/fake-template.php
+msgid "Unknown artist"
+msgstr "Nieznany artysta"
+
+#: ../templates/fake-template.php
+msgid ""
+"Use this address to browse your music collection from any Ampache compatible"
+" player."
+msgstr "Użyj tego adresu aby przeglądać swoją kolekcję muzyczną na dowolnym odtwarzaczu kompatybilnym z Ampache."
+
+#: ../templates/fake-template.php
+msgid ""
+"Use your username and following password to connect to this Ampache "
+"instance:"
+msgstr "Użyj nazwy użytkownika i następującego hasła do połączenia do tej instancji Ampache:"

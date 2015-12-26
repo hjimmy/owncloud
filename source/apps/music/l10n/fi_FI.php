@@ -1,0 +1,31 @@
+<?php
+$TRANSLATIONS = array(
+"Albums" => "Levyt",
+"Artists" => "Esittäjät",
+"Delete" => "Poista",
+"Description" => "Kuvaus",
+"Description (e.g. App name)" => "Kuvaus (esim. sovelluksen nimi)",
+"Generate API password" => "Luo API-salasana",
+"Invalid path" => "Virheellinen polku",
+"Loading ..." => "Ladataan...",
+"Music" => "Musiikki",
+"Next" => "Seuraava",
+"Nothing in here. Upload your music!" => "Täällä ei ole mitään. Lähetä musiikkia tänne!",
+"Path to your music collection" => "Musiikkikokoelman polku",
+"Pause" => "Keskeytä",
+"Play" => "Toista",
+"Previous" => "Edellinen",
+"Repeat" => "Kertaa",
+"Revoke API password" => "Peru API-salasana",
+"Scanning ..." => "Tutkitaan...",
+"_Show all {{ trackcount }} songs ..._::_Show all {{ trackcount }} songs ..._" => array("Näytä {{ trackcount }} kappale...","Näytä kaikki {{ trackcount }} kappaletta..."),
+"Show less ..." => "Näytä vähemmän...",
+"Shuffle" => "Sekoita",
+"Some not playable tracks were skipped." => "Ohitettiin joitain sellaisia kappaleita, joita ei voi toistaa.",
+"Tracks" => "Kappaleet",
+"Unknown album" => "Tuntematon levy",
+"Unknown artist" => "Tuntematon esittäjä",
+"Use this address to browse your music collection from any Ampache compatible player." => "Käytä tätä osoitetta selataksesi musiikkikokoelmaasi miltä tahansa Ampache-yhteensopivalta soittimelta.",
+"Use your username and following password to connect to this Ampache instance:" => "Käytä käyttäjätunnustasi ja seuraavaa salasanaa yhditäessäsi tähän Ampache-istuntoon:"
+);
+$PLURAL_FORMS = "nplurals=2; plural=(n != 1);";

@@ -1,0 +1,146 @@
+# 
+# Translators:
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2013-2014
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud\n"
+"PO-Revision-Date: 2014-04-30 05:30+0000\n"
+"Last-Translator: I Robot\n"
+"Language-Team: Finnish (Finland) (http://www.transifex.com/projects/p/owncloud/language/fi_FI/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../templates/fake-template.php
+msgid "Albums"
+msgstr "Levyt"
+
+#: ../templates/fake-template.php
+msgid "Artists"
+msgstr "Esittäjät"
+
+#: ../templates/main.php
+msgid "Delete"
+msgstr "Poista"
+
+#: ../templates/fake-template.php
+msgid "Description"
+msgstr "Kuvaus"
+
+#: ../templates/fake-template.php
+msgid "Description (e.g. App name)"
+msgstr "Kuvaus (esim. sovelluksen nimi)"
+
+#: ../templates/fake-template.php
+msgid "Generate API password"
+msgstr "Luo API-salasana"
+
+#: ../templates/fake-template.php
+msgid ""
+"Here you can generate passwords to use with the Ampache API, because they "
+"can't be stored in a really secure way due to the design of the Ampache API."
+" You can generate as many passwords as you want and revoke them anytime."
+msgstr ""
+
+#: ../templates/fake-template.php
+msgid "Invalid path"
+msgstr "Virheellinen polku"
+
+#: ../templates/fake-template.php
+msgid ""
+"Keep in mind, that the Ampache API is just a preview and is unstable. Feel "
+"free to report your experience with this feature in the corresponding <a "
+"href=\"https://github.com/owncloud/music/issues/60\">issue</a>. I would also"
+" like to have a list of clients to test with. Thanks"
+msgstr ""
+
+#: ../templates/main.php ../templates/part.main.php
+msgid "Loading ..."
+msgstr "Ladataan..."
+
+#: ../templates/fake-template.php
+msgid "Music"
+msgstr "Musiikki"
+
+#: ../templates/main.php
+msgid "Next"
+msgstr "Seuraava"
+
+#: ../templates/part.main.php
+msgid "Nothing in here. Upload your music!"
+msgstr "Täällä ei ole mitään. Lähetä musiikkia tänne!"
+
+#: ../templates/fake-template.php
+msgid "Path to your music collection"
+msgstr "Musiikkikokoelman polku"
+
+#: ../templates/main.php
+msgid "Pause"
+msgstr "Keskeytä"
+
+#: ../templates/main.php ../templates/part.main.php
+msgid "Play"
+msgstr "Toista"
+
+#: ../templates/main.php
+msgid "Previous"
+msgstr "Edellinen"
+
+#: ../templates/main.php
+msgid "Repeat"
+msgstr "Kertaa"
+
+#: ../templates/fake-template.php
+msgid "Revoke API password"
+msgstr "Peru API-salasana"
+
+#: ../templates/part.main.php
+msgid "Scanning ..."
+msgstr "Tutkitaan..."
+
+#: ../templates/part.main.php
+msgid "Show all {{ trackcount }} songs ..."
+msgid_plural "Show all {{ trackcount }} songs ..."
+msgstr[0] "Näytä {{ trackcount }} kappale..."
+msgstr[1] "Näytä kaikki {{ trackcount }} kappaletta..."
+
+#: ../templates/part.main.php
+msgid "Show less ..."
+msgstr "Näytä vähemmän..."
+
+#: ../templates/main.php
+msgid "Shuffle"
+msgstr "Sekoita"
+
+#: ../js/public/app.js
+msgid "Some not playable tracks were skipped."
+msgstr "Ohitettiin joitain sellaisia kappaleita, joita ei voi toistaa."
+
+#: ../templates/fake-template.php
+msgid "This setting specifies the folder which will be scanned for music."
+msgstr ""
+
+#: ../templates/fake-template.php
+msgid "Tracks"
+msgstr "Kappaleet"
+
+#: ../templates/fake-template.php
+msgid "Unknown album"
+msgstr "Tuntematon levy"
+
+#: ../templates/fake-template.php
+msgid "Unknown artist"
+msgstr "Tuntematon esittäjä"
+
+#: ../templates/fake-template.php
+msgid ""
+"Use this address to browse your music collection from any Ampache compatible"
+" player."
+msgstr "Käytä tätä osoitetta selataksesi musiikkikokoelmaasi miltä tahansa Ampache-yhteensopivalta soittimelta."
+
+#: ../templates/fake-template.php
+msgid ""
+"Use your username and following password to connect to this Ampache "
+"instance:"
+msgstr "Käytä käyttäjätunnustasi ja seuraavaa salasanaa yhditäessäsi tähän Ampache-istuntoon:"

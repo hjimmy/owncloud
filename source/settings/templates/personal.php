@@ -4,7 +4,7 @@
  * See the COPYING-README file.
  */?>
 
-<?/**div class="clientsbox center">
+<!--div class="clientsbox center">
 	<h2><?php p($l->t('Get the apps to sync your files'));?></h2>
 	<a href="<?php p($_['clients']['desktop']); ?>" target="_blank">
 		<img src="<?php print_unescaped(OCP\Util::imagePath('core', 'desktopapp.png')); ?>" />
@@ -19,7 +19,6 @@
 	<p class="center"><a class="button" href="#" id="showWizard"><?php p($l->t('Show First Run Wizard again'));?></a></p>
 	<?php }?>
 </div-->
-*/?>
 <!-- Added by jian.hou -->
 
 <div id="quota" class="personalblock">

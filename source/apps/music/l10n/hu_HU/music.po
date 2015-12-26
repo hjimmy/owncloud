@@ -1,0 +1,148 @@
+# 
+# Translators:
+# ebela <bela@dandre.hu>, 2013
+# aries1980 <feher.janos@mindworks.hu>, 2014
+# pty <peti@szladovics.hu>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud\n"
+"PO-Revision-Date: 2014-04-30 05:30+0000\n"
+"Last-Translator: I Robot\n"
+"Language-Team: Hungarian (Hungary) (http://www.transifex.com/projects/p/owncloud/language/hu_HU/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../templates/fake-template.php
+msgid "Albums"
+msgstr "Albumok"
+
+#: ../templates/fake-template.php
+msgid "Artists"
+msgstr "Művészek"
+
+#: ../templates/main.php
+msgid "Delete"
+msgstr "Törlés"
+
+#: ../templates/fake-template.php
+msgid "Description"
+msgstr "Leírás"
+
+#: ../templates/fake-template.php
+msgid "Description (e.g. App name)"
+msgstr "Leírás (például Alkalmazás neve)"
+
+#: ../templates/fake-template.php
+msgid "Generate API password"
+msgstr "API-jelszó előállítása"
+
+#: ../templates/fake-template.php
+msgid ""
+"Here you can generate passwords to use with the Ampache API, because they "
+"can't be stored in a really secure way due to the design of the Ampache API."
+" You can generate as many passwords as you want and revoke them anytime."
+msgstr ""
+
+#: ../templates/fake-template.php
+msgid "Invalid path"
+msgstr "Érvénytelen útvonal"
+
+#: ../templates/fake-template.php
+msgid ""
+"Keep in mind, that the Ampache API is just a preview and is unstable. Feel "
+"free to report your experience with this feature in the corresponding <a "
+"href=\"https://github.com/owncloud/music/issues/60\">issue</a>. I would also"
+" like to have a list of clients to test with. Thanks"
+msgstr ""
+
+#: ../templates/main.php ../templates/part.main.php
+msgid "Loading ..."
+msgstr "Betöltés ..."
+
+#: ../templates/fake-template.php
+msgid "Music"
+msgstr "Zene"
+
+#: ../templates/main.php
+msgid "Next"
+msgstr "Következő"
+
+#: ../templates/part.main.php
+msgid "Nothing in here. Upload your music!"
+msgstr "Nincs itt semmi. Töltsd fel a zenédet!"
+
+#: ../templates/fake-template.php
+msgid "Path to your music collection"
+msgstr "A zenegyűjtemény útvonala"
+
+#: ../templates/main.php
+msgid "Pause"
+msgstr "Szünet"
+
+#: ../templates/main.php ../templates/part.main.php
+msgid "Play"
+msgstr "Lejátszás"
+
+#: ../templates/main.php
+msgid "Previous"
+msgstr "Előző"
+
+#: ../templates/main.php
+msgid "Repeat"
+msgstr "Ismétlés"
+
+#: ../templates/fake-template.php
+msgid "Revoke API password"
+msgstr "API-jelszó visszavonása"
+
+#: ../templates/part.main.php
+msgid "Scanning ..."
+msgstr "Átnézés ..."
+
+#: ../templates/part.main.php
+msgid "Show all {{ trackcount }} songs ..."
+msgid_plural "Show all {{ trackcount }} songs ..."
+msgstr[0] "Mutasd mind a {{ trackcount }} zenét ..."
+msgstr[1] "Mutasd mind a {{ trackcount }} zenét ..."
+
+#: ../templates/part.main.php
+msgid "Show less ..."
+msgstr "Mutass kevesebbet..."
+
+#: ../templates/main.php
+msgid "Shuffle"
+msgstr "Keverés"
+
+#: ../js/public/app.js
+msgid "Some not playable tracks were skipped."
+msgstr "Néhány le nem játszható szám ki lett hagyva."
+
+#: ../templates/fake-template.php
+msgid "This setting specifies the folder which will be scanned for music."
+msgstr ""
+
+#: ../templates/fake-template.php
+msgid "Tracks"
+msgstr "Számok"
+
+#: ../templates/fake-template.php
+msgid "Unknown album"
+msgstr "Ismeretlen album"
+
+#: ../templates/fake-template.php
+msgid "Unknown artist"
+msgstr "Ismeretlen előadó"
+
+#: ../templates/fake-template.php
+msgid ""
+"Use this address to browse your music collection from any Ampache compatible"
+" player."
+msgstr "Ezt a címet használva a zenegyűjtemény bármely Ampache-kompatibilis lejátszóval böngészhető."
+
+#: ../templates/fake-template.php
+msgid ""
+"Use your username and following password to connect to this Ampache "
+"instance:"
+msgstr "Felhasználónév és jelszó használatával lehet csatlakozni ehhez az Ampache-hez:"
