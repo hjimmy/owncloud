@@ -40,9 +40,11 @@
 		</p>
 
 		<?php if (isset($_['invalidpassword']) && ($_['invalidpassword'])): ?>
-		<a class="warning" href="<?php print_unescaped(OC_Helper::linkToRoute('core_lostpassword_index')) ?>">
-			<?php p($l->t('Lost your password?')); ?>
-		</a>
+		<!--a class="warning" href="<?php print_unescaped(OC_Helper::linkToRoute('core_lostpassword_index')) ?>"-->
+			<div class="warning">
+			<?php p($l->t('Username or Password may not match.')); ?>
+                        </div>
+		<!--/a-->
 		<?php endif; ?>
 		<?php if ($_['rememberLoginAllowed'] === true) : ?>
 		<input type="checkbox" name="remember_login" value="1" id="remember_login" checked />

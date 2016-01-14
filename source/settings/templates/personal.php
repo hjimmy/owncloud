@@ -68,7 +68,7 @@ if($_['displayNameChangeSupported']) {
 ?>
 
 <?php
-if($_['passwordChangeSupported']) {
+/*if($_['passwordChangeSupported']) {
 ?>
 <form id="lostpassword">
 	<fieldset class="personalblock">
@@ -79,7 +79,7 @@ if($_['passwordChangeSupported']) {
 	</fieldset>
 </form>
 <?php
-}
+}*/
 ?>
 
 <?php if ($_['enableAvatars']): ?>
