@@ -27,7 +27,7 @@ OCP\App::addNavigationEntry(array(
 	'id' => 'activity',
 	'order' => 1,
 	'href' => OCP\Util::linkTo('activity', 'index.php'),
-	'icon' => OCP\Util::imagePath('activity', 'activity.svg'),
+	'icon' => OCP\Util::imagePath('activity', 'activity.png'),
 	'name' => $l->t('Activity')));
 
 // register the hooks for filesystem operations. All other events from other apps has to be send via the public api

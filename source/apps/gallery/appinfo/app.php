@@ -32,7 +32,7 @@ OCP\App::addNavigationEntry(array(
 		'id' => 'gallery_index',
 		'order' => 3,
 		'href' => OCP\Util::linkTo('gallery', 'index.php'),
-		'icon' => OCP\Util::imagePath('core', 'places/picture.svg'),
+		'icon' => OCP\Util::imagePath('core', 'places/picture.png'),
 		'name' => $l->t('Pictures'))
 );
 

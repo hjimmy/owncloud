@@ -1,0 +1,10 @@
+{"app":"index","message":"PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '\/var\/lib\/mysql\/mysql.sock' (2) [2002]","level":4,"time":"2016-03-28T15:52:59+00:00"}
+{"app":"PHP","message":"Call to a member function exists() on a non-object at \/var\/www\/owncloud\/lib\/private\/util.php#198","level":3,"time":"2016-03-28T15:52:59+00:00"}
+{"app":"index","message":"PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '\/var\/lib\/mysql\/mysql.sock' (2) [2002]","level":4,"time":"2016-03-28T15:53:03+00:00"}
+{"app":"PHP","message":"Call to a member function exists() on a non-object at \/var\/www\/owncloud\/lib\/private\/util.php#198","level":3,"time":"2016-03-28T15:53:03+00:00"}
+{"app":"index","message":"PDOException: SQLSTATE[28000] [1045] Access denied for user 'oc_admin'@'localhost' (using password: YES) [1045]","level":4,"time":"2016-03-28T15:55:39+00:00"}
+{"app":"PHP","message":"Call to a member function exists() on a non-object at \/var\/www\/owncloud\/lib\/private\/util.php#198","level":3,"time":"2016-03-28T15:55:39+00:00"}
+{"app":"index","message":"PDOException: SQLSTATE[28000] [1045] Access denied for user 'oc_admin'@'localhost' (using password: YES) [1045]","level":4,"time":"2016-03-28T15:55:43+00:00"}
+{"app":"PHP","message":"Call to a member function exists() on a non-object at \/var\/www\/owncloud\/lib\/private\/util.php#198","level":3,"time":"2016-03-28T15:55:43+00:00"}
+{"app":"index","message":"PDOException: SQLSTATE[28000] [1045] Access denied for user 'oc_admin'@'localhost' (using password: YES) [1045]","level":4,"time":"2016-03-28T15:55:53+00:00"}
+{"app":"PHP","message":"Call to a member function exists() on a non-object at \/var\/www\/owncloud\/lib\/private\/util.php#198","level":3,"time":"2016-03-28T15:55:53+00:00"}
